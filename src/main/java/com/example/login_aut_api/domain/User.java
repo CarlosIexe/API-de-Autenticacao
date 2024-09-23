@@ -12,7 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "User")
+@Table(name = "users")
 public class User {
 
     @Id
@@ -20,5 +20,5 @@ public class User {
     private String Id;
     private String Name;
     private String Password;
-    private String Email;
+    private String email;
 }
